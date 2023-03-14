@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag paaru_18:v2
+      run: docker build . --file Dockerfile --tag paaru_18:v3
